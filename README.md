@@ -1,1 +1,3 @@
-# web-dev-study
+# web dev study
+
+## Repository for front-end development practice results.
