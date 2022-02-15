@@ -8,8 +8,22 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <div class="alert-box" id="alert">
+      <p>경고창</p>
+      <button
+        id="close"
+        onclick="document.getElementById('alert').style.display = 'none '; "
+      >
+        닫기
+      </button>
+    </div>
+    <button
+      id="button"
+      onclick="document.getElementById('alert').style.display = 'block'; "
+    >
+      클릭
+    </button>
     <h1 id="hello">안녕하세요</h1>
-    <div class="alert-box">경고창</div>
     <script>
       document.getElementById("hello").innerHTML = "안녕";
       document.getElementById("hello").style.fontSize = "30px";
