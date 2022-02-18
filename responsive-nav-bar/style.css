@@ -1,1 +1,11 @@
-/* 243344 /
+* {
+  color: white;
+}
+
+header {
+  background-color: #243344;
+}
+
+h1 {
+  margin: unset;
+}
