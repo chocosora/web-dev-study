@@ -41,9 +41,9 @@ a {
 }
 
 .navbar__icons {
+  display: flex;
   list-style: none;
   color: white;
-  display: flex;
   padding-left: 0;
 }
 
