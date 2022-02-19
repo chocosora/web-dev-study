@@ -17,11 +17,13 @@ a {
 }
 
 .navbar__logo {
+  display: flex;
   font-size: 24px;
   color: white;
 }
 
 .navbar__logo i {
+  display: flex;
   color: #d49466;
 }
 
