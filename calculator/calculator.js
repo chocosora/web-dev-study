@@ -1,9 +1,21 @@
-function plus(a, b) {
-  console.log(a + b);
-}
-function minus(a, b) {
-  console.log(a - b);
-}
+const calculator = {
+  plus: function (a, b) {
+    console.log(a + b);
+  },
 
-plus(3, 2);
-minus(10, 5);
+  minus: function (a, b) {
+    console.log(a - b);
+  },
+
+  divide: function (a, b) {
+    console.log(a / b);
+  },
+  power: function (a, b) {
+    console.log(a ** b);
+  },
+};
+
+calculator.plus(2, 2);
+calculator.minus(2, 2);
+calculator.divide(2, 2);
+calculator.power(2, 2);
