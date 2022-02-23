@@ -22,13 +22,15 @@
     <input class="input" />
     <button>sub</button>
     <script>
-      const answer = "abcde";
+      var 답 = "abcde";
       document.querySelector("button").addEventListener("click", function () {
-        const input = document.querySelectorAll(".input");
-        if (input[0].value == answer[0]) {
+        var input = document.querySelectorAll(".input");
+        if (input[0].value == 답[0]) {
           input[0].style.background = "green";
-        } else if (answer.includes(input[0].value)) {
+        } else if (답.includes(input[0].value)) {
           input[0].style.background = "yellow";
+        } else {
+          input[0].style.background = "lightgrey";
         }
       });
     </script>
