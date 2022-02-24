@@ -33,7 +33,18 @@
           } else {
             input[i].style.background = "lightgrey";
           }
+          input[i].classList.remove("input");
         }
+        var template = `<div>
+          <input class="input" />
+          <input class="input" />
+          <input class="input" />
+          <input class="input" />
+          <input class="input" />
+          </div>`;
+        document
+          .querySelector("body")
+          .insertAdjacentHTML("beforeend", template);
       });
     </script>
   </body>
